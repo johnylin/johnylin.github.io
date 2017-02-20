@@ -69,7 +69,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Github Pages,Hexo,Blog," />
+  <meta name="keywords" content="Java,JDBC,SQL," />
 
 
 
@@ -85,35 +85,16 @@
 
 
 
-<meta name="description" content="前言
-本次操作是本地配置的重中之重，请各位一定要仔细，其中涉及到
-
-Git客户端的安装
-配置生成SSH Key（一种传输代码的方法，速度快安全。）
-添加到Github">
+<meta name="description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github Pages + Hexo搭建个人博客全攻略N0.2">
-<meta property="og:url" content="http://www.johnylin.com/2017/02/15/Pages-Hexo-blog2/index.html">
+<meta property="og:title" content="JDBC究竟是什么东西？">
+<meta property="og:url" content="http://www.johnylin.com/2017/02/20/JDBC/index.html">
 <meta property="og:site_name" content="Johny-lin's HOME">
-<meta property="og:description" content="前言
-本次操作是本地配置的重中之重，请各位一定要仔细，其中涉及到
-
-Git客户端的安装
-配置生成SSH Key（一种传输代码的方法，速度快安全。）
-添加到Github">
-<meta property="og:image" content="http://www.johnylin.com/images/blog/SSH.jpg">
-<meta property="og:image" content="http://www.johnylin.com/images/blog/SSH2.jpg">
-<meta property="og:image" content="http://www.johnylin.com/images/blog/SSH3.jpg">
-<meta property="og:updated_time" content="2017-02-15T16:18:47.166Z">
+<meta property="og:description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
+<meta property="og:updated_time" content="2017-02-20T16:03:58.661Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Github Pages + Hexo搭建个人博客全攻略N0.2">
-<meta name="twitter:description" content="前言
-本次操作是本地配置的重中之重，请各位一定要仔细，其中涉及到
-
-Git客户端的安装
-配置生成SSH Key（一种传输代码的方法，速度快安全。）
-添加到Github">
-<meta name="twitter:image" content="http://www.johnylin.com/images/blog/SSH.jpg">
+<meta name="twitter:title" content="JDBC究竟是什么东西？">
+<meta name="twitter:description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
 
 
 
@@ -134,9 +115,9 @@ Git客户端的安装
 
 
 
-  <link rel="canonical" href="http://www.johnylin.com/2017/02/15/Pages-Hexo-blog2/"/>
+  <link rel="canonical" href="http://www.johnylin.com/2017/02/20/JDBC/"/>
 
-  <title> Github Pages + Hexo搭建个人博客全攻略N0.2 | Johny-lin's HOME </title>
+  <title> JDBC究竟是什么东西？ | Johny-lin's HOME </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -309,7 +290,7 @@ Git客户端的安装
             
             
               
-                Github Pages + Hexo搭建个人博客全攻略N0.2
+                JDBC究竟是什么东西？
               
             
           </h1>
@@ -321,8 +302,8 @@ Git客户端的安装
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-15T21:38:42+08:00" content="2017-02-15">
-              2017-02-15
+            <time itemprop="dateCreated" datetime="2017-02-20T23:36:05+08:00" content="2017-02-20">
+              2017-02-20
             </time>
           </span>
 
@@ -335,8 +316,8 @@ Git客户端的安装
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/博客/" itemprop="url" rel="index">
-                    <span itemprop="name">博客</span>
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
                   </a>
                 </span>
 
@@ -351,8 +332,8 @@ Git客户端的安装
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/02/15/Pages-Hexo-blog2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/15/Pages-Hexo-blog2/" itemprop="commentsCount"></span>
+                <a href="/2017/02/20/JDBC/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/20/JDBC/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -375,61 +356,141 @@ Git客户端的安装
       
 
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>本次操作是本地配置的重中之重，请各位一定要仔细，其中涉及到</p>
+        <h2 id="JDBC初识"><a href="#JDBC初识" class="headerlink" title="JDBC初识"></a>JDBC初识</h2><h3 id="什么是-JDBC"><a href="#什么是-JDBC" class="headerlink" title="什么是 JDBC ?"></a>什么是 JDBC ?</h3><p>JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。<a id="more"></a>dbc一句话概述： 使用java语言发送sql语句。</p>
+<h3 id="JDBC连接模式"><a href="#JDBC连接模式" class="headerlink" title="JDBC连接模式"></a>JDBC连接模式</h3><p>java程序 —–&gt; jdbc接口 —–&gt; jdbc的实现类（数据库厂商提供）<br>jdbc接口：是Sun公司制定的一套java程序操作不同数据库的接口。</p>
+<pre><code>jdbc接口：
+    java.sql.*     低版本
+    javax.sql.*    扩展版本
+</code></pre><h3 id="JDBC开发步骤"><a href="#JDBC开发步骤" class="headerlink" title="JDBC开发步骤"></a>JDBC开发步骤</h3><pre><code>注册驱动程序（告诉java程序连接哪个数据库）
+获取数据库连接
+创建Statement或者PreparedStatement或CallableStatement
+执行sql语句
+处理结果
+关闭连接
+</code></pre><h2 id="JDBC-api体系简介"><a href="#JDBC-api体系简介" class="headerlink" title="JDBC api体系简介"></a>JDBC api体系简介</h2><p>java.sql.Driver:  驱动程序接口        (具体的实现由数据库厂商提供) </p>
+<pre><code>    mysql: com.mysql.jdbc.Driver
+    oracle：oracle.jdbc.driver.OracleDriver
+
+
+java.sql.Connection: 连接数据库的接口   (具体的实现由数据库厂商提供) 
+    Statement createStatement(): 创建Statement接口的实例
+    PreparedStatement prepareStatement(String sql):创建 PreparedStatement接口的实例
+    CallableStatement prepareCall(String sql)  : 创建CallableStatement 接口的实例
+
+java.sql.Statement接口： 用于执行静态 SQL 语句并返回结果的对象。(实现由数据库厂商提供)
+    int executeUpdate(String sql)  ：执行更新的sql语句（DDL+DML） 
+                    (DDL: create/alter/drop
+                    DML: insert/update/delete)
+    ResultSet executeQuery(String sql)  :执行查询的sql语句（DQL）
+                    （DQL:select）
+
+java.sql.PreparedStatement接口：用于执行预编译的sql语句并返回结果的对象。
+    int executeUpdate()  ：执行更新sql语句
+    ResultSet executeQuery()  ：执行查询sql语句
+
+java.sql.CallableStatement接口： 用于执行存储过程并返回结果的对象。
+    ResultSet executeQuery()  ：执行查询sql语句
+
+java.sql.ResultSet接口： 用于封装数据库的查询结果的对象
+    next(): 将光标移动到下一条记录
+    getObject(): 取出当前行的数据
+</code></pre><h2 id="Statement进行DDL"><a href="#Statement进行DDL" class="headerlink" title="Statement进行DDL"></a>Statement进行DDL</h2><pre><code>public class Demo1 {
+//数据库的连接的URL
+private static String url = &quot;jdbc:mysql://localhost:3306/day17&quot;;
+//数据库用户名
+private static String user = &quot;root&quot;;
+//数据库密码
+private static String password = &quot;root&quot;;
+
+public static void main(String[] args){
+    Connection conn = null;
+    Statement stmt = null;
+    try {
+        //1.驱动驱动程序
+        Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
+        //2.从驱动程序管理类获取连接
+        conn = DriverManager.getConnection(url, user, password);
+        //3.通过Connection对象获取Statement对象
+        stmt = conn.createStatement();
+        //4.准备sql语句
+        String sql = &quot;CREATE TABLE student(id INT PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR(20),gender VARCHAR(2))&quot;;
+        //5.执行sql语句，返回结果
+        int count = stmt.executeUpdate(sql);
+
+        System.out.println(&quot;影响了&quot;+count+&quot;行&quot;);
+    } catch (Exception e) {
+        e.printStackTrace();
+        throw new RuntimeException(e);
+    } finally{
+        //6.关闭资源（先关闭statement，再关闭connection）
+        if(stmt!=null)
+            try {
+                stmt.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new RuntimeException(e);
+            }
+        if(conn!=null)
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new RuntimeException(e);
+            }
+    }
+}
+}
+</code></pre><h2 id="PreparedStatement操作SQL语句"><a href="#PreparedStatement操作SQL语句" class="headerlink" title="PreparedStatement操作SQL语句"></a>PreparedStatement操作SQL语句</h2><pre><code>public class Demo1 {
+/**
+ * 插入操作
+ */
+@Test
+public void test1(){
+    Connection conn = null;
+    PreparedStatement stmt = null;
+    try{
+        //获取连接
+        conn = JdbcUtil.getConnection();
+        String sql = &quot;INSERT INTO student(NAME,gender) VALUES(?,?)&quot;; //预编译sql：使用？号代替参数值。一个？号代表一个参数值
+        //创建PreparedStatement对象,执行预编译的sql语句
+        stmt = conn.prepareStatement(sql);
+        //设置参数
+        /**
+         * 参数一： 参数位置。从1开始
+         * 参数二： 参数实际值
+         * 注意： 所有参数必须要赋值
+         */
+        stmt.setString(1, &quot;rose&quot;);
+        stmt.setString(2, &quot;女&quot;);
+        //发送参数，执行sql语句
+        int count = stmt.executeUpdate();
+        System.out.println(count);
+    }catch(Exception e){
+        e.printStackTrace();
+        throw new RuntimeException(e);
+    }finally{
+        //关闭资源
+        JdbcUtil.close(conn, stmt, null);
+    }
+}
+</code></pre><h2 id="Statement-与-PreparedStatement-对比"><a href="#Statement-与-PreparedStatement-对比" class="headerlink" title="Statement  与     PreparedStatement 对比"></a>Statement  与     PreparedStatement 对比</h2><h3 id="一、语法结构不同"><a href="#一、语法结构不同" class="headerlink" title="一、语法结构不同"></a>一、语法结构不同</h3><blockquote>
 <ul>
-<li>Git客户端的安装</li>
-<li>配置生成SSH Key（一种传输代码的方法，速度快安全。）</li>
-<li>添加到Github</li>
+<li>Statment执行静态sql语句，且sql可以拼接。</li>
+<li>PreparedStatement可以先执行预编译的sql语句，在预编译sql语句中使用？进行参数占位，后面</li>
 </ul>
 </blockquote>
-<a id="more"></a>
-<h2 id="安装Git客户端"><a href="#安装Git客户端" class="headerlink" title="安装Git客户端"></a>安装Git客户端</h2><p>git是版本管理的未来，Git是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。<br>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。如果推荐这本<a href="http://git-scm.com/book/zh" target="_blank" rel="external">Git中文教程</a>。</p>
-<p>要使用Git，需要安装它的客户端，推荐在Linux下使用Git，会比较方便。下载地址在这里：<a href="http://code.google.com/p/msysgit/downloads/list" target="_blank" rel="external">http://code.google.com/p/msysgit/downloads/lis
-</a>。其他系统的安装也可以参考官方的安装教程。</p>
-<p>安装完成后，还需要最后一步设置，在命令行输入：</p>
-<pre><code>$ git config --global user.name &quot;Your Name&quot;
-$ git config --global user.email &quot;email@example.com&quot; 
-</code></pre><h2 id="配置SSH-keys和使用Github"><a href="#配置SSH-keys和使用Github" class="headerlink" title="配置SSH keys和使用Github"></a>配置SSH keys和使用Github</h2><p>首先，什么是SSH??</p>
-<p>SSH的英文全称是Secure SHell。通过使用SSH，你可以把所有传输的数据进行加密，<br>这样“中间人”这种攻击方式就不可能实现了，而且也能够防止DNS和IP欺骗。<br>还有一个额外的好处就是传输的数据是经过压缩的，所以可以加快传输的速度。<br>SSH有很多功能，它既可以代替telnet，又可以为ftp、pop、甚至ppp提供一个安全的“通道”。</p>
-<p>当我们需要将本地的代码传输到Github上时，SSH keys就起到了一个安全传输的功能。（哈哈！是不是很神奇？！）</p>
-<h3 id="检查SSH-keys的设置"><a href="#检查SSH-keys的设置" class="headerlink" title="检查SSH keys的设置"></a>检查SSH keys的设置</h3><p>首先我们需要检查你电脑上现有的ssh key：</p>
-<p><code>$ cd ~/.ssh</code></p>
-<p>如果显示“No such file or directory”，跳到第三步，否则继续。</p>
-<h3 id="备份和移除原来的ssh-key设置"><a href="#备份和移除原来的ssh-key设置" class="headerlink" title="备份和移除原来的ssh key设置"></a>备份和移除原来的ssh key设置</h3><p>因为已经存在key文件，所以需要备份旧的数据并删除：</p>
-<pre><code>ls
-config  id_rsa  id_rsa.pub  known_hosts
-mkdir key_backup
-cp id_rsa* key_backup
-rm id_rsa*`
-</code></pre><h3 id="生成新的SSH-Key"><a href="#生成新的SSH-Key" class="headerlink" title="生成新的SSH Key"></a>生成新的SSH Key</h3><p>输入下面的代码，就可以生成新的key文件，我们只需要默认设置就好，所以当需要输入文件名的时候，回车就好。</p>
-<pre><code>$ ssh-keygen -t rsa -C &quot;邮件地址@youremail.com&quot;
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/    your_user_directory/.ssh/id_rsa):&lt;回车就好&gt;
-</code></pre><p>然后系统会要你输入加密串（Passphrase）：</p>
-<pre><code>Enter passphrase (empty for no passphrase):&lt;输入加密串&gt;
-Enter same passphrase again:&lt;再次输入加密串&gt;
-</code></pre><p>最后看到ssh key success，就成功设置ssh key了. </p>
-<h3 id="添加SSH-Key到GitHub"><a href="#添加SSH-Key到GitHub" class="headerlink" title="添加SSH Key到GitHub"></a>添加SSH Key到GitHub</h3><p>在本机设置SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。</p>
-<p>用文本编辑工具打开id_rsa.pub文件，仔细查看上面保存的文件路径。如果看不到这个文件，你需要设置显示隐藏文件。准确的复制这个文件的内容，才能保证设置的成功。</p>
-<p>在GitHub的主页上点击设置按钮： github account setting，进入设置后：点击SSH配置</p>
-<p><img src="/images/blog/SSH.jpg" alt=""></p>
-<p>选择SSH Keys项，把复制的内容粘贴进去，然后点击Add Key按钮即可： </p>
-<p><img src="/images/blog/SSH2.jpg" alt=""><br><img src="/images/blog/SSH3.jpg" alt=""></p>
-<p>PS：如果需要配置多个GitHub账号，可以参看这个<a href="http://ju.outofmemory.cn/entry/16775" target="_blank" rel="external">多个github帐号的SSH key切换</a>，不过需要提醒一下的是，如果你只是通过这篇文章中所述配置了Host，那么你多个账号下面的提交用户会是一个人，所以需要通过命令<code>git config --global --unset user.email</code>删除用户账户设置，在每一个repo下面使用<code>git config --local user.email &#39;你的github邮箱@mail.com&#39;</code>命令单独设置用户账户信息</p>
-<h3 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h3><p>可以输入下面的命令，看看设置是否成功，git@github.com的部分不要修改：</p>
-<pre><code>$ ssh -T git@github.com
-</code></pre><p>如果是下面的反应：</p>
-<pre><code>The authenticity of host &apos;github.com (207.97.227.239)&apos; can&apos;t be established.
-RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
-Are you sure you want to continue connecting (yes/no)?
-</code></pre><p>不要紧张，输入yes就好，然后会看到：</p>
-<pre><code>Hi &lt;em&gt;username&lt;/em&gt;! You&apos;ve successfully authenticated, but GitHub does not provide shell access.
-</code></pre><h3 id="设置你的账号信息"><a href="#设置你的账号信息" class="headerlink" title="设置你的账号信息"></a>设置你的账号信息</h3><p>现在你已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善的。</p>
-<p>Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是GitHub的昵称。</p>
-<pre><code>$ git config --global user.name &quot;你的名字&quot;
-$ git config --global user.email &quot;your_email@youremail.com&quot;
-</code></pre><p>好了，你已经可以成功连接GitHub了。</p>
+<h3 id="二、原理不同"><a href="#二、原理不同" class="headerlink" title="二、原理不同"></a>二、原理不同</h3><blockquote>
+<ul>
+<li>Statement不能进行sql缓存</li>
+<li>而PreparedStatement可以进行sql缓存，执行效率会比Statement快！！！</li>
+</ul>
+</blockquote>
+<h3 id="三、安全性不同"><a href="#三、安全性不同" class="headerlink" title="三、安全性不同"></a>三、安全性不同</h3><blockquote>
+<ul>
+<li>Statement存在sql注入的风险</li>
+<li>而PreparedStatement可以有效防止用户注入。</li>
+</ul>
+</blockquote>
 
       
     </div>
@@ -451,11 +512,11 @@ $ git config --global user.email &quot;your_email@youremail.com&quot;
       
         <div class="post-tags">
           
-            <a href="/tags/Github-Pages/" rel="tag">#Github Pages</a>
+            <a href="/tags/Java/" rel="tag">#Java</a>
           
-            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+            <a href="/tags/JDBC/" rel="tag">#JDBC</a>
           
-            <a href="/tags/Blog/" rel="tag">#Blog</a>
+            <a href="/tags/SQL/" rel="tag">#SQL</a>
           
         </div>
       
@@ -464,17 +525,13 @@ $ git config --global user.email &quot;your_email@youremail.com&quot;
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/15/Pages-Hexo-blog1/" rel="next" title="Github Pages + Hexo搭建个人博客全攻略N0.1">
-                <i class="fa fa-chevron-left"></i> Github Pages + Hexo搭建个人博客全攻略N0.1
+              <a href="/2017/02/17/Github/" rel="next" title="那么问题来了：Git 和 Github是什么鬼 ？？！">
+                <i class="fa fa-chevron-left"></i> 那么问题来了：Git 和 Github是什么鬼 ？？！
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/17/Github/" rel="prev" title="那么问题来了：Git 和 Github是什么鬼 ？？！">
-                那么问题来了：Git 和 Github是什么鬼 ？？！ <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -489,10 +546,10 @@ $ git config --global user.email &quot;your_email@youremail.com&quot;
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2017/02/15/Pages-Hexo-blog2/"
-     data-title="Github Pages + Hexo搭建个人博客全攻略N0.2"
+        <div class="ds-share flat" data-thread-key="2017/02/20/JDBC/"
+     data-title="JDBC究竟是什么东西？"
      data-content=""
-     data-url="http://www.johnylin.com/2017/02/15/Pages-Hexo-blog2/">
+     data-url="http://www.johnylin.com/2017/02/20/JDBC/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -522,8 +579,8 @@ $ git config --global user.email &quot;your_email@youremail.com&quot;
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/02/15/Pages-Hexo-blog2/"
-           data-title="Github Pages + Hexo搭建个人博客全攻略N0.2" data-url="http://www.johnylin.com/2017/02/15/Pages-Hexo-blog2/">
+      <div class="ds-thread" data-thread-key="2017/02/20/JDBC/"
+           data-title="JDBC究竟是什么东西？" data-url="http://www.johnylin.com/2017/02/20/JDBC/">
       </div>
     
   </div>
@@ -636,7 +693,7 @@ $ git config --global user.email &quot;your_email@youremail.com&quot;
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git客户端"><span class="nav-number">2.</span> <span class="nav-text">安装Git客户端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置SSH-keys和使用Github"><span class="nav-number">3.</span> <span class="nav-text">配置SSH keys和使用Github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检查SSH-keys的设置"><span class="nav-number">3.1.</span> <span class="nav-text">检查SSH keys的设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#备份和移除原来的ssh-key设置"><span class="nav-number">3.2.</span> <span class="nav-text">备份和移除原来的ssh key设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成新的SSH-Key"><span class="nav-number">3.3.</span> <span class="nav-text">生成新的SSH Key</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加SSH-Key到GitHub"><span class="nav-number">3.4.</span> <span class="nav-text">添加SSH Key到GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试一下"><span class="nav-number">3.5.</span> <span class="nav-text">测试一下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置你的账号信息"><span class="nav-number">3.6.</span> <span class="nav-text">设置你的账号信息</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#JDBC初识"><span class="nav-number">1.</span> <span class="nav-text">JDBC初识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-JDBC"><span class="nav-number">1.1.</span> <span class="nav-text">什么是 JDBC ?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDBC连接模式"><span class="nav-number">1.2.</span> <span class="nav-text">JDBC连接模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDBC开发步骤"><span class="nav-number">1.3.</span> <span class="nav-text">JDBC开发步骤</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JDBC-api体系简介"><span class="nav-number">2.</span> <span class="nav-text">JDBC api体系简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Statement进行DDL"><span class="nav-number">3.</span> <span class="nav-text">Statement进行DDL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PreparedStatement操作SQL语句"><span class="nav-number">4.</span> <span class="nav-text">PreparedStatement操作SQL语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Statement-与-PreparedStatement-对比"><span class="nav-number">5.</span> <span class="nav-text">Statement  与     PreparedStatement 对比</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、语法结构不同"><span class="nav-number">5.1.</span> <span class="nav-text">一、语法结构不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、原理不同"><span class="nav-number">5.2.</span> <span class="nav-text">二、原理不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、安全性不同"><span class="nav-number">5.3.</span> <span class="nav-text">三、安全性不同</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
