@@ -69,7 +69,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Java,JDBC,SQL," />
+  <meta name="keywords" content="Github Page,Hexo,Blog," />
 
 
 
@@ -85,16 +85,22 @@
 
 
 
-<meta name="description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
+<meta name="description" content="前言
+通常我们讲的博客，分为两种：一种是以各大博客网站，例如新浪博客（不是指微博哦！）、网易博客、博客园、CSDN博客、简书等等，这些提供博客服务的网站，社区。另外一种是自己建站，搭载在服务器上并拥有域名的个人博客网站。如果拥有自己专属的网站，那是一件特别酷的事，很多人苦恼于如何建站，如何搭载服务器等等，如果有一种成型的网站框架，只需要我们简单的配置就能实现炫酷的效果，那就太方便了。下面就给大家介">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JDBC究竟是什么东西？">
-<meta property="og:url" content="http://www.johnylin.com/2017/02/20/JDBC/index.html">
+<meta property="og:title" content="Github Pages + Hexo搭建个人博客全攻略NO.3">
+<meta property="og:url" content="http://www.johnylin.com/2017/02/26/Github-Pages-Hexo-blog3/index.html">
 <meta property="og:site_name" content="Johny-lin's HOME">
-<meta property="og:description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
-<meta property="og:updated_time" content="2017-02-20T16:03:58.661Z">
+<meta property="og:description" content="前言
+通常我们讲的博客，分为两种：一种是以各大博客网站，例如新浪博客（不是指微博哦！）、网易博客、博客园、CSDN博客、简书等等，这些提供博客服务的网站，社区。另外一种是自己建站，搭载在服务器上并拥有域名的个人博客网站。如果拥有自己专属的网站，那是一件特别酷的事，很多人苦恼于如何建站，如何搭载服务器等等，如果有一种成型的网站框架，只需要我们简单的配置就能实现炫酷的效果，那就太方便了。下面就给大家介">
+<meta property="og:image" content="http://www.johnylin.com/images/blog/hexo.jpg">
+<meta property="og:image" content="http://www.johnylin.com/images/blog/time.jpg">
+<meta property="og:updated_time" content="2017-02-27T17:26:45.501Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JDBC究竟是什么东西？">
-<meta name="twitter:description" content="JDBC初识什么是 JDBC ?JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。">
+<meta name="twitter:title" content="Github Pages + Hexo搭建个人博客全攻略NO.3">
+<meta name="twitter:description" content="前言
+通常我们讲的博客，分为两种：一种是以各大博客网站，例如新浪博客（不是指微博哦！）、网易博客、博客园、CSDN博客、简书等等，这些提供博客服务的网站，社区。另外一种是自己建站，搭载在服务器上并拥有域名的个人博客网站。如果拥有自己专属的网站，那是一件特别酷的事，很多人苦恼于如何建站，如何搭载服务器等等，如果有一种成型的网站框架，只需要我们简单的配置就能实现炫酷的效果，那就太方便了。下面就给大家介">
+<meta name="twitter:image" content="http://www.johnylin.com/images/blog/hexo.jpg">
 
 
 
@@ -115,9 +121,9 @@
 
 
 
-  <link rel="canonical" href="http://www.johnylin.com/2017/02/20/JDBC/"/>
+  <link rel="canonical" href="http://www.johnylin.com/2017/02/26/Github-Pages-Hexo-blog3/"/>
 
-  <title> JDBC究竟是什么东西？ | Johny-lin's HOME </title>
+  <title> Github Pages + Hexo搭建个人博客全攻略NO.3 | Johny-lin's HOME </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -290,7 +296,7 @@
             
             
               
-                JDBC究竟是什么东西？
+                Github Pages + Hexo搭建个人博客全攻略NO.3
               
             
           </h1>
@@ -302,8 +308,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-20T23:36:05+08:00" content="2017-02-20">
-              2017-02-20
+            <time itemprop="dateCreated" datetime="2017-02-26T23:45:32+08:00" content="2017-02-26">
+              2017-02-26
             </time>
           </span>
 
@@ -316,8 +322,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
+                  <a href="/categories/Blog/" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
                   </a>
                 </span>
 
@@ -332,8 +338,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/02/20/JDBC/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/20/JDBC/" itemprop="commentsCount"></span>
+                <a href="/2017/02/26/Github-Pages-Hexo-blog3/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/26/Github-Pages-Hexo-blog3/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -356,141 +362,56 @@
       
 
       
-        <h2 id="JDBC初识"><a href="#JDBC初识" class="headerlink" title="JDBC初识"></a>JDBC初识</h2><h3 id="什么是-JDBC"><a href="#什么是-JDBC" class="headerlink" title="什么是 JDBC ?"></a>什么是 JDBC ?</h3><p>JBDC概述： JBDC(Java Database Connectivity)是一种用于执行SQL语句的Java API,可以为多种关系型数据库提供统一的访问，它由一组Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序。使用java代码操作数据库的技术。<a id="more"></a>dbc一句话概述： 使用java语言发送sql语句。</p>
-<h3 id="JDBC连接模式"><a href="#JDBC连接模式" class="headerlink" title="JDBC连接模式"></a>JDBC连接模式</h3><p>java程序 —–&gt; jdbc接口 —–&gt; jdbc的实现类（数据库厂商提供）<br>jdbc接口：是Sun公司制定的一套java程序操作不同数据库的接口。</p>
-<pre><code>jdbc接口：
-    java.sql.*     低版本
-    javax.sql.*    扩展版本
-</code></pre><h3 id="JDBC开发步骤"><a href="#JDBC开发步骤" class="headerlink" title="JDBC开发步骤"></a>JDBC开发步骤</h3><pre><code>注册驱动程序（告诉java程序连接哪个数据库）
-获取数据库连接
-创建Statement或者PreparedStatement或CallableStatement
-执行sql语句
-处理结果
-关闭连接
-</code></pre><h2 id="JDBC-api体系简介"><a href="#JDBC-api体系简介" class="headerlink" title="JDBC api体系简介"></a>JDBC api体系简介</h2><p>java.sql.Driver:  驱动程序接口        (具体的实现由数据库厂商提供) </p>
-<pre><code>    mysql: com.mysql.jdbc.Driver
-    oracle：oracle.jdbc.driver.OracleDriver
-
-
-java.sql.Connection: 连接数据库的接口   (具体的实现由数据库厂商提供) 
-    Statement createStatement(): 创建Statement接口的实例
-    PreparedStatement prepareStatement(String sql):创建 PreparedStatement接口的实例
-    CallableStatement prepareCall(String sql)  : 创建CallableStatement 接口的实例
-
-java.sql.Statement接口： 用于执行静态 SQL 语句并返回结果的对象。(实现由数据库厂商提供)
-    int executeUpdate(String sql)  ：执行更新的sql语句（DDL+DML） 
-                    (DDL: create/alter/drop
-                    DML: insert/update/delete)
-    ResultSet executeQuery(String sql)  :执行查询的sql语句（DQL）
-                    （DQL:select）
-
-java.sql.PreparedStatement接口：用于执行预编译的sql语句并返回结果的对象。
-    int executeUpdate()  ：执行更新sql语句
-    ResultSet executeQuery()  ：执行查询sql语句
-
-java.sql.CallableStatement接口： 用于执行存储过程并返回结果的对象。
-    ResultSet executeQuery()  ：执行查询sql语句
-
-java.sql.ResultSet接口： 用于封装数据库的查询结果的对象
-    next(): 将光标移动到下一条记录
-    getObject(): 取出当前行的数据
-</code></pre><h2 id="Statement进行DDL"><a href="#Statement进行DDL" class="headerlink" title="Statement进行DDL"></a>Statement进行DDL</h2><pre><code>public class Demo1 {
-//数据库的连接的URL
-private static String url = &quot;jdbc:mysql://localhost:3306/day17&quot;;
-//数据库用户名
-private static String user = &quot;root&quot;;
-//数据库密码
-private static String password = &quot;root&quot;;
-
-public static void main(String[] args){
-    Connection conn = null;
-    Statement stmt = null;
-    try {
-        //1.驱动驱动程序
-        Class.forName(&quot;com.mysql.jdbc.Driver&quot;);
-        //2.从驱动程序管理类获取连接
-        conn = DriverManager.getConnection(url, user, password);
-        //3.通过Connection对象获取Statement对象
-        stmt = conn.createStatement();
-        //4.准备sql语句
-        String sql = &quot;CREATE TABLE student(id INT PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR(20),gender VARCHAR(2))&quot;;
-        //5.执行sql语句，返回结果
-        int count = stmt.executeUpdate(sql);
-
-        System.out.println(&quot;影响了&quot;+count+&quot;行&quot;);
-    } catch (Exception e) {
-        e.printStackTrace();
-        throw new RuntimeException(e);
-    } finally{
-        //6.关闭资源（先关闭statement，再关闭connection）
-        if(stmt!=null)
-            try {
-                stmt.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-                throw new RuntimeException(e);
-            }
-        if(conn!=null)
-            try {
-                conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-                throw new RuntimeException(e);
-            }
-    }
-}
-}
-</code></pre><h2 id="PreparedStatement操作SQL语句"><a href="#PreparedStatement操作SQL语句" class="headerlink" title="PreparedStatement操作SQL语句"></a>PreparedStatement操作SQL语句</h2><pre><code>public class Demo1 {
-/**
- * 插入操作
- */
-@Test
-public void test1(){
-    Connection conn = null;
-    PreparedStatement stmt = null;
-    try{
-        //获取连接
-        conn = JdbcUtil.getConnection();
-        String sql = &quot;INSERT INTO student(NAME,gender) VALUES(?,?)&quot;; //预编译sql：使用？号代替参数值。一个？号代表一个参数值
-        //创建PreparedStatement对象,执行预编译的sql语句
-        stmt = conn.prepareStatement(sql);
-        //设置参数
-        /**
-         * 参数一： 参数位置。从1开始
-         * 参数二： 参数实际值
-         * 注意： 所有参数必须要赋值
-         */
-        stmt.setString(1, &quot;rose&quot;);
-        stmt.setString(2, &quot;女&quot;);
-        //发送参数，执行sql语句
-        int count = stmt.executeUpdate();
-        System.out.println(count);
-    }catch(Exception e){
-        e.printStackTrace();
-        throw new RuntimeException(e);
-    }finally{
-        //关闭资源
-        JdbcUtil.close(conn, stmt, null);
-    }
-}
-</code></pre><h2 id="Statement-与-PreparedStatement-对比"><a href="#Statement-与-PreparedStatement-对比" class="headerlink" title="Statement  与     PreparedStatement 对比"></a>Statement  与     PreparedStatement 对比</h2><h3 id="一、语法结构不同"><a href="#一、语法结构不同" class="headerlink" title="一、语法结构不同"></a>一、语法结构不同</h3><blockquote>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote>
+<p>通常我们讲的博客，分为两种：一种是以各大博客网站，例如新浪博客（不是指微博哦！）、网易博客、博客园、CSDN博客、简书等等，这些提供博客服务的网站，社区。另外一种是自己建站，搭载在服务器上并拥有域名的个人博客网站。如果拥有自己专属的网站，那是一件特别酷的事，很多人苦恼于如何建站，如何搭载服务器等等，如果有一种成型的网站框架，只需要我们简单的配置就能实现炫酷的效果，那就太方便了。<br>下面就给大家介绍一款极其简单又功能齐全的博客框架：<br><a id="more"></a></p>
+</blockquote>
+<h2 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br><img src="/images/blog/hexo.jpg" alt=""></p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p>
+<blockquote>
+<p>Node.js</p>
+<p>Git ——具体安装过程参照<a href="http://johnylin.com/2017/02/15/Pages-Hexo-blog2/" target="_blank" rel="external">《Github Pages + Hexo搭建个人博客全攻略N0.2》</a></p>
+</blockquote>
+<p>如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。进入安装的文件路径，命令行输入如下：        </p>
+<pre><code>cd D:
+$ npm install -g hexo-cli
+</code></pre><h3 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h3><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<blockquote>
 <ul>
-<li>Statment执行静态sql语句，且sql可以拼接。</li>
-<li>PreparedStatement可以先执行预编译的sql语句，在预编译sql语句中使用？进行参数占位，后面</li>
+<li>$ hexo init <folder></folder></li>
+<li>$ cd <folder></folder></li>
+<li>$ npm install   </li>
 </ul>
 </blockquote>
-<h3 id="二、原理不同"><a href="#二、原理不同" class="headerlink" title="二、原理不同"></a>二、原理不同</h3><blockquote>
+<p>新建完成后，指定文件夹的目录如下：</p>
+<blockquote>
+<p>.<br>├── _config.yml ————网站的 配置 信息，您可以在此配置大部分的参数。<br>├── package.json————应用程序的信息。<br>├── scaffolds   ————模版文件夹。当您新建文章时，Hexo 会根据scaffold 来建立文件。<br>├── source——-资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。<br>|   ├── _drafts<br>|   └── _posts<br>└── themes  —————–主题 文件夹。Hexo 会根据主题来生成静态页面。</p>
+</blockquote>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><blockquote>
+<p>可以在 _config.yml 中修改大部份的配置。<br>参数    描述<br>title    ———————–网站标题<br>subtitle    ——————-网站副标题<br>description    ——————-网站描述<br>author    ———————–您的名字<br>language    ——————-网站使用的语言<br>timezone    ——————-网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 。   </p>
+</blockquote>
+<p>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><p><strong>注意：由于我们安装了Git和Github客户端，不建议在windows系统下的命令行器输入，可以选择Git版本下的 Git bash 或 Github客户端自带的 Git Shell 下进行 Hexo 命令输入 </strong>  </p>
+<p><strong>init</strong>    </p>
+<pre><code>$ hexo init [folder]   
+新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。   
+</code></pre><p><strong>new</strong>  </p>
+<pre><code>$ hexo new [layout] &lt;title&gt;
+新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 
+default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。
+</code></pre><p><strong>generate、server、deploy</strong> </p>
+<blockquote>
 <ul>
-<li>Statement不能进行sql缓存</li>
-<li>而PreparedStatement可以进行sql缓存，执行效率会比Statement快！！！</li>
+<li>$ hexo g ———–生成静态文件</li>
+<li>$ hexo s ———–启动本地服务器，浏览器器输入localhost:4000/</li>
+<li>$ hexo d ———–文件生成后立即部署网站 （如果解析了Github Pages的域名地址，输入域名可看）</li>
 </ul>
 </blockquote>
-<h3 id="三、安全性不同"><a href="#三、安全性不同" class="headerlink" title="三、安全性不同"></a>三、安全性不同</h3><blockquote>
-<ul>
-<li>Statement存在sql注入的风险</li>
-<li>而PreparedStatement可以有效防止用户注入。</li>
-</ul>
+<h2 id="关于主题"><a href="#关于主题" class="headerlink" title="关于主题"></a>关于主题</h2><p>创建 Hexo 主题非常容易，您只要在 themes 文件夹内，新增一个任意名称的文件夹，并修改 _config.yml 内的 theme 设定，即可切换主题。一个主题可能会有以下的结构：</p>
+<blockquote>
+<p>   .<br>├── _config.yml<br>├── languages<br>├── layout<br>├── scripts<br>└── source   </p>
 </blockquote>
+<p>关于 Hexo 的配置详细请看  <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方文档</a></p>
+<h3 id="NeXt主题"><a href="#NeXt主题" class="headerlink" title="NeXt主题"></a>NeXt主题</h3><p>当下载完 Hexo 框架后，生成博客后应该不少人会吐槽默认的主题风格吧！<br>确实是太<strong>恶心、恶心、恶心、恶心</strong>了，于是更换博客主题变得十分重要，就像我们手机的壁纸一样，主题可是我们博客的门面啊！！！<br>下面介绍 NeXt 这个主题：<br><img src="/images/blog/time.jpg" alt=""><br>…………………………..原谅我写到这里已经很累了!!详细请大家查看 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NeXt官方文档</a></p>
 
       
     </div>
@@ -512,11 +433,11 @@ public void test1(){
       
         <div class="post-tags">
           
-            <a href="/tags/Java/" rel="tag">#Java</a>
+            <a href="/tags/Github-Page/" rel="tag">#Github Page</a>
           
-            <a href="/tags/JDBC/" rel="tag">#JDBC</a>
+            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
           
-            <a href="/tags/SQL/" rel="tag">#SQL</a>
+            <a href="/tags/Blog/" rel="tag">#Blog</a>
           
         </div>
       
@@ -525,17 +446,13 @@ public void test1(){
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/17/Github/" rel="next" title="那么问题来了：Git 和 Github是什么鬼 ？？！">
-                <i class="fa fa-chevron-left"></i> 那么问题来了：Git 和 Github是什么鬼 ？？！
+              <a href="/2017/02/23/Struts/" rel="next" title="三大框架之 Struts2">
+                <i class="fa fa-chevron-left"></i> 三大框架之 Struts2
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/23/Struts/" rel="prev" title="三大框架之 Struts2">
-                三大框架之 Struts2 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -550,10 +467,10 @@ public void test1(){
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2017/02/20/JDBC/"
-     data-title="JDBC究竟是什么东西？"
+        <div class="ds-share flat" data-thread-key="2017/02/26/Github-Pages-Hexo-blog3/"
+     data-title="Github Pages + Hexo搭建个人博客全攻略NO.3"
      data-content=""
-     data-url="http://www.johnylin.com/2017/02/20/JDBC/">
+     data-url="http://www.johnylin.com/2017/02/26/Github-Pages-Hexo-blog3/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -583,8 +500,8 @@ public void test1(){
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/02/20/JDBC/"
-           data-title="JDBC究竟是什么东西？" data-url="http://www.johnylin.com/2017/02/20/JDBC/">
+      <div class="ds-thread" data-thread-key="2017/02/26/Github-Pages-Hexo-blog3/"
+           data-title="Github Pages + Hexo搭建个人博客全攻略NO.3" data-url="http://www.johnylin.com/2017/02/26/Github-Pages-Hexo-blog3/">
       </div>
     
   </div>
@@ -697,7 +614,7 @@ public void test1(){
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#JDBC初识"><span class="nav-number">1.</span> <span class="nav-text">JDBC初识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-JDBC"><span class="nav-number">1.1.</span> <span class="nav-text">什么是 JDBC ?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDBC连接模式"><span class="nav-number">1.2.</span> <span class="nav-text">JDBC连接模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JDBC开发步骤"><span class="nav-number">1.3.</span> <span class="nav-text">JDBC开发步骤</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JDBC-api体系简介"><span class="nav-number">2.</span> <span class="nav-text">JDBC api体系简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Statement进行DDL"><span class="nav-number">3.</span> <span class="nav-text">Statement进行DDL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PreparedStatement操作SQL语句"><span class="nav-number">4.</span> <span class="nav-text">PreparedStatement操作SQL语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Statement-与-PreparedStatement-对比"><span class="nav-number">5.</span> <span class="nav-text">Statement  与     PreparedStatement 对比</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、语法结构不同"><span class="nav-number">5.1.</span> <span class="nav-text">一、语法结构不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、原理不同"><span class="nav-number">5.2.</span> <span class="nav-text">二、原理不同</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、安全性不同"><span class="nav-number">5.3.</span> <span class="nav-text">三、安全性不同</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo介绍"><span class="nav-number"></span> <span class="nav-text">Hexo介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Hexo"><span class="nav-number"></span> <span class="nav-text">安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#前提"><span class="nav-number">1.</span> <span class="nav-text">前提</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#建站"><span class="nav-number">2.</span> <span class="nav-text">建站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">3.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命令"><span class="nav-number">4.</span> <span class="nav-text">命令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于主题"><span class="nav-number"></span> <span class="nav-text">关于主题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NeXt主题"><span class="nav-number">1.</span> <span class="nav-text">NeXt主题</span></a></li></ol></div>
             
           </div>
         </section>
